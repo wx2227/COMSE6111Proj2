@@ -1,0 +1,64 @@
+a.
+Name: Guancheng Ren
+UNI: gr2625
+
+Name: Wan Xu
+UNI: wx2227
+
+b.
+README
+iterativeSetExpansion.py
+transcript.txt
+
+c.
+Dependency:
+pip install stanfordnlp
+pip install tika
+pip install beautifulsoup4
+
+Run:
+python iterativeSetExpansion.py <google api key> <google engine id> <r> <t> <q> <k>
+
+d.
+The program is made up from a main function and a series of functions, where each function defines a subroutine of the set expansion process.
+
+The main entry point is the iterative_expansion() fucntion. This function defines the high-level procedure of the algorithm by calling subroutine functions. 
+This function chains the parameter checking, web content extraction, relation extraction, duplicate removing, result displaying together.
+
+Then the iterative_expansion() funtion will call the process() function which pipes the extracted website content to the NER and KBP pipeline. 
+It also removes duplicate URLs. If after one iteration there are still not enough relations, it will run a second query with the highest confidence relation tuple.
+
+The process() will call pipeline1() which then consequently calls pipeline2(). Those two functions defines the corresponding NER pipeline and KBP pipeline 
+described in the course website. 
+pipeline1() extracts the named entity in each sentence, and calls pipeline2() if the required named entity is in the sentence.
+pipeline2() extracts the relationship in the provided sentence, and prints out the ones matches with the provided argument.
+
+e.
+	a) AND b)
+	The webpage is retrieved and extracted using Tika's parser. Only the plain text of the used and other parts are discarded.
+	In case Tika times out or doesn't work for any reason, we will try to use requests and BeautifulSoup to extract the webpage. 
+	More specifically, we use requests to get the html file and use BeautifulSoup to parse the website.
+	Only <title>, <header>, <p>, <dl>, <td>, <tl>, <li>, <h1>-<h5> elements will be extracted because conditionally
+	those are the elements that contains the plain text of the webpage.
+	
+	After the plain text is extracted, we removed any unnecessary additional newline, tab, space tokens from the text.
+	
+	c) 
+	We simply take a substring of the extracted text to make sure it is less than 20,000 characters.
+	
+	d)
+	We created two instances of CoreNLPClient with annotators ['tokenize', 'ssplit', 'pos', 'lemma', 'ner'] and 
+	['tokenize', 'ssplit', 'pos', 'lemma', 'ner','depparse', 'coref', 'kbp']
+	We used the first annotator to check whether the required named entity pair can be found in a sentence, if the pair is present, then we use the second
+	annotator to extract the relation in that sentence.
+	
+	e)
+	The KBP annotator will return a confidence score for its labeled relation pair, we use that confidence score to decide if we want to add it to set.
+	
+	
+f. 
+key: AIzaSyAg_FedCkdEHFmYwRdkqS5Im2zeOjlrC4Y
+id: 011931726167723972512:orkup7yeals
+
+g.
+Have a nice day :D

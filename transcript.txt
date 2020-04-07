@@ -1,0 +1,867 @@
+=========== Iteration: 0 - Query: bill gates microsoft ===========
+URL (1 / 10): https://www.cnbc.com/2020/03/13/bill-gates-leaves-microsoft-board.html
+	Fetching text from url ...
+	Webpage length (num characters): 6107
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-9c846db721df4d54.props -preload tokenize,ssplit,pos,lemma,ner
+	Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+	Extracted 45 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-0b7708d3b9024ee3.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+	processing 0th sentence.
+		=== Extracted Relation ===
+		Sentence: Bill Gates leaves Microsoft board Skip Navigation Ã-- LOG IN SIGN UP Keep Me Logged In SIGN IN Pro Watchlist Make It Select USA INTL Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Watchlist Business Economy Finance Health & Science Media Real Estate Energy Transportation Industrials Retail Wealth Small Business Investing Invest In You Personal Finance Financial Advisors Trading Nation Options Action ETF Street Buffett Archive Earnings Trader Talk Tech Cybersecurity Enterprise Internet Media Mobile Social Media Venture Capital Tech Guide Politics White House Policy Defense Congress 2020 Elections CNBC TV Live TV Live Audio Latest Video Top Video CEO Interviews Business Day Shows Primetime Shows CNBC World Digital Originals Full Episodes Menu SEARCH QUOTES Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Watchlist Business Economy Finance Health & Science Media Real Estate Energy Transportation Industrials Retail Wealth Small Business Investing Invest In You Personal Finance Financial Advisors Trading Nation Options Action ETF Street Buffett Archive Earnings Trader Talk Tech Cybersecurity Enterprise Internet Media Mobile Social Media Venture Capital Tech Guide Politics White House Policy Defense Congress 2020 Elections CNBC TV Live TV Live Audio Latest Video Top Video CEO Interviews Business Day Shows Primetime Shows CNBC World Digital Originals Full Episodes Menu TechBill Gates leaves Microsoft board Published Fri, Mar 13 20205:09 PM EDTUpdated Fri, Mar 13 20207:14 PM EDT Todd Haselton@robotodd Jordan Novet@jordannovet Key Points Bill Gates is leaving Microsoft's board, the company announced on Friday.
+		Confidence: 1.000000; Subject: Bill Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 1th sentence.
+		=== Extracted Relation ===
+		Sentence: Gates co-founded Microsoft in 1975 with Paul Allen, who died in 2018.
+		Confidence: 0.574709; Subject: Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 3th sentence.
+	processing 5th sentence.
+	processing 7th sentence.
+	processing 8th sentence.
+	processing 10th sentence.
+		=== Extracted Relation ===
+		Sentence: Gates co-founded Microsoft in 1975 with Paul Allen, who died in 2018.
+		Confidence: 0.574709; Subject: Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 12th sentence.
+		=== Extracted Relation ===
+		Sentence: Microsoft's current CEO, Satya Nadella, took over in 2014.
+		Confidence: 1.000000; Subject: Satya Nadella; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 13th sentence.
+		=== Extracted Relation ===
+		Sentence: Gates was director of the board at Microsoft until 2014 but began dedicating more of his time to the Bill & Melinda Gates Foundation in 2008.
+		Confidence: 0.919270; Subject: Gates; Object: Bill & Melinda Gates Foundation;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates was director of the board at Microsoft until 2014 but began dedicating more of his time to the Bill & Melinda Gates Foundation in 2008.
+		Confidence: 1.000000; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 14th sentence.
+	processing 16th sentence.
+		=== Extracted Relation ===
+		Sentence: ``It's been a tremendous honor and privilege to have worked with and learned from Bill over the years,'' said Microsoft CEOÂ Satya Nadella.
+		Confidence: 0.717550; Subject: Satya Nadella; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 20th sentence.
+Extracted kbp annotations for 12 out of total 45 sentences
+Relations extracted from this website: 4 (Overall: 4)
+URL (2 / 10): https://www.theverge.com/2020/3/13/21179214/bill-gates-steps-down-microsoft-board-philanthropy
+	Fetching text from url ...
+	Webpage length (num characters): 4046
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-a802222d25314efd.props -preload tokenize,ssplit,pos,lemma,ner
+	Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+	Extracted 20 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-a8a367321c4b45db.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+	processing 0th sentence.
+		=== Extracted Relation ===
+		Sentence: Bill Gates steps down from Microsoft board - The Verge Skip to main content The Verge homepage Follow The Verge online: Log in or sign up Log In Sign Up Site search Search The Verge main menu Tech Reviews Science Creators Entertainment Video Features Podcasts Newsletters Store More Tech Video Amazon Apple Facebook Google Microsoft Samsung Tesla AI Cars Cybersecurity Mobile Policy Privacy Scooters All Tech Reviews Phones Laptops Headphones Cameras Tablets Smartwatches Speakers Drones Accessories Buying Guides How-to's Deals More from Verge Reviews Science Video Space NASA SpaceX Health Energy Environment All Science Creators YouTube Instagram Adobe Kickstarter Tumblr Art Club Cameras Photography What's in your bag?
+		Confidence: 0.800764; Subject: Bill Gates; Object: NASA SpaceX Health Energy Environment All Science Creators YouTube Instagram Adobe Kickstarter Tumblr Art Club Cameras;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Bill Gates steps down from Microsoft board - The Verge Skip to main content The Verge homepage Follow The Verge online: Log in or sign up Log In Sign Up Site search Search The Verge main menu Tech Reviews Science Creators Entertainment Video Features Podcasts Newsletters Store More Tech Video Amazon Apple Facebook Google Microsoft Samsung Tesla AI Cars Cybersecurity Mobile Policy Privacy Scooters All Tech Reviews Phones Laptops Headphones Cameras Tablets Smartwatches Speakers Drones Accessories Buying Guides How-to's Deals More from Verge Reviews Science Video Space NASA SpaceX Health Energy Environment All Science Creators YouTube Instagram Adobe Kickstarter Tumblr Art Club Cameras Photography What's in your bag?
+		Confidence: 0.553639; Subject: Bill Gates; Object: Amazon Apple Facebook Google Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 1th sentence.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 0.953336; Subject: Bill Gates; Object: Netflix;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 0.550382; Subject: Chaim Gartenberg@cgartenberg; Object: Linkedin Reddit;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 0.588767; Subject: Chaim Gartenberg@cgartenberg; Object: Netflix;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 1.000000; Subject: Bill Gates; Object: Microsoft Tech;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 0.627482; Subject: Saeed Adyani; Object: Linkedin Reddit;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 0.722168; Subject: Saeed Adyani; Object: Microsoft Tech;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 0.596390; Subject: Saeed Adyani; Object: Netflix;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 0.863816; Subject: Bill Gates; Object: Linkedin Reddit;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 0.764727; Subject: Bill Gates; Object: Facebook Share;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 0.647332; Subject: Saeed Adyani; Object: Facebook Share;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: All Creators Entertainment Film TV Games Fortnite Game of Thrones Books Comics Music All Entertainment Video Features Podcasts Newsletters Store ✕ Filed under: Microsoft Tech Bill Gates steps down from Microsoft board New, 21 comments Gates will be focusing more on philanthropy By Chaim Gartenberg@cgartenberg Mar 13, 2020, 5:15pm EDT Share this story Share this on Facebook Share this on Twitter Share All sharing options Share All sharing options for: Bill Gates steps down from Microsoft board Linkedin Reddit Pocket Flipboard Email Photo by Saeed Adyani / Netflix Bill Gates, co-founder and former CEO of Microsoft, is stepping down from the board of the company.
+		Confidence: 0.497362; Subject: Chaim Gartenberg@cgartenberg; Object: Microsoft Tech;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 2th sentence.
+		=== Extracted Relation ===
+		Sentence: Gates previously served as CEO of Microsoft until 2000 when he stepped down from the position in order to spend more time on the Bill and Melinda Gates Foundation.
+		Confidence: 0.655942; Subject: Bill; Object: Melinda Gates Foundation;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: Gates previously served as CEO of Microsoft until 2000 when he stepped down from the position in order to spend more time on the Bill and Melinda Gates Foundation.
+		Confidence: 0.776973; Subject: Gates; Object: Melinda Gates Foundation;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates previously served as CEO of Microsoft until 2000 when he stepped down from the position in order to spend more time on the Bill and Melinda Gates Foundation.
+		Confidence: 0.738922; Subject: Bill; Object: Microsoft;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates previously served as CEO of Microsoft until 2000 when he stepped down from the position in order to spend more time on the Bill and Melinda Gates Foundation.
+		Confidence: 1.000000; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 3th sentence.
+	processing 5th sentence.
+		=== Extracted Relation ===
+		Sentence: Gates will still serve as a ``technology advisor'' to current CEO Satya Nadella, a role he began in 2014 at Nadella's request when he stepped down from serving as chairman of Microsoft's board.
+		Confidence: 0.987170; Subject: Satya Nadella; Object: Microsoft;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates will still serve as a ``technology advisor'' to current CEO Satya Nadella, a role he began in 2014 at Nadella's request when he stepped down from serving as chairman of Microsoft's board.
+		Confidence: 0.947501; Subject: Nadella; Object: Microsoft;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates will still serve as a ``technology advisor'' to current CEO Satya Nadella, a role he began in 2014 at Nadella's request when he stepped down from serving as chairman of Microsoft's board.
+		Confidence: 0.979695; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 8th sentence.
+	processing 10th sentence.
+	processing 12th sentence.
+		=== Extracted Relation ===
+		Sentence: While Gates will still be at least somewhat involved with the company he founded through his position as a technology advisor, the move marks the furthest step away from running Microsoft that Gates has taken yet since he gave up the role of CEO back in 2000.
+		Confidence: 0.657708; Subject: Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 13th sentence.
+		=== Extracted Relation ===
+		Sentence: Correction: A previous version of this story said Gates stepped down as Microsoft CEO in 2008.
+		Confidence: 0.542389; Subject: Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 14th sentence.
+Extracted kbp annotations for 10 out of total 20 sentences
+Relations extracted from this website: 9 (Overall: 13)
+URL (3 / 10): https://www.nytimes.com/2020/03/13/technology/bill-gates-microsoft-board.html
+	Fetching text from url ...
+	Webpage length (num characters): 5506
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-03a68f9d5d8b4a5f.props -preload tokenize,ssplit,pos,lemma,ner
+	Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+	Extracted 39 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-fefb9ccf6be14210.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+	processing 0th sentence.
+	processing 1th sentence.
+		=== Extracted Relation ===
+		Sentence: Bill Gates said Friday that he wanted to spend more time on philanthropy.Credit...Calla Kessler/The New York Times By Daisuke Wakabayashi and Steve Lohr Published March 13, 2020Updated March 15, 2020 SAN FRANCISCO -- Bill Gates is stepping down from the board of Microsoft, the software giant he helped found more than four decades ago.
+		Confidence: 0.660449; Subject: Bill Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 2th sentence.
+	processing 3th sentence.
+	processing 4th sentence.
+	processing 6th sentence.
+	processing 7th sentence.
+	processing 10th sentence.
+		=== Extracted Relation ===
+		Sentence: Mr. Gates remains one of the largest individual shareholders of Microsoft.
+		Confidence: 0.530346; Subject: Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 13th sentence.
+		=== Extracted Relation ===
+		Sentence: He said he would remain active at the company and would work closely with Satya Nadella, Microsoft's chief executive.
+		Confidence: 1.000000; Subject: Satya Nadella; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 14th sentence.
+	processing 19th sentence.
+		=== Extracted Relation ===
+		Sentence: He has persuaded Mr. Buffett, his bridge partner and neighbor on the list of the world's richest people, to donate most of his fortune to the Gates Foundation.
+		Confidence: 0.687632; Subject: Buffett; Object: Gates Foundation;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 20th sentence.
+		=== Extracted Relation ===
+		Sentence: Mr. Gates joined the Berkshire Hathaway board in 2004.
+		Confidence: 1.000000; Subject: Gates; Object: Berkshire Hathaway;
+		Adding to set of extracted relations.
+	processing 21th sentence.
+		=== Extracted Relation ===
+		Sentence: The conglomerate has nominated Kenneth Chenault, the former chief executive of American Express, to replace Mr. Gates on the board.
+		Confidence: 1.000000; Subject: Kenneth Chenault; Object: American Express;
+		Adding to set of extracted relations.
+	processing 22th sentence.
+		=== Extracted Relation ===
+		Sentence: Daniel Ives, managing director of equity research at Wedbush Securities, said in a research note that Mr. Gates's stepping down from the Microsoft board was not a surprise and that it was a vote of confidence for Mr. Nadella and the direction of the company.
+		Confidence: 1.000000; Subject: Daniel Ives; Object: Wedbush Securities;
+		Adding to set of extracted relations.
+	processing 23th sentence.
+		=== Extracted Relation ===
+		Sentence: Mr. Gates founded Microsoft in 1975, dropping out of Harvard and joining Paul Allen, his friend and technology collaborator since their teenage years at a private high school in Seattle.
+		Confidence: 0.701614; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 27th sentence.
+Extracted kbp annotations for 16 out of total 39 sentences
+Relations extracted from this website: 3 (Overall: 16)
+URL (4 / 10): https://techcrunch.com/2020/03/13/bill-gates-leaves-microsofts-board/
+	Fetching text from url ...
+	Webpage length (num characters): 2575
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-5ea7dd27e9b84ca9.props -preload tokenize,ssplit,pos,lemma,ner
+	Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+	Extracted 12 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-f16d160e520d4185.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+	processing 0th sentence.
+		=== Extracted Relation ===
+		Sentence: Bill Gates leaves Microsoft's board -- TechCrunch Bill Gates leaves Microsoft's board Devin Coldewey @techcrunch / 2 weeks Bill Gates has stepped down from the board of Microsoft to spend more time on his philanthropic endeavors, the company announced Friday afternoon.
+		Confidence: 0.558654; Subject: Devin Coldewey; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: Bill Gates leaves Microsoft's board -- TechCrunch Bill Gates leaves Microsoft's board Devin Coldewey @techcrunch / 2 weeks Bill Gates has stepped down from the board of Microsoft to spend more time on his philanthropic endeavors, the company announced Friday afternoon.
+		Confidence: 0.617404; Subject: Bill Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 2th sentence.
+		=== Extracted Relation ===
+		Sentence: Gates led Microsoft from the '80s all the way through 2008, when he left to dedicate himself more fully to the Bill & Melinda Gates Foundation, through which he has channeled a great deal of his immense wealth toward global health concerns.
+		Confidence: 0.832763; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 5th sentence.
+	processing 8th sentence.
+	processing 11th sentence.
+		=== Extracted Relation ===
+		Sentence: Gates, Wellcome and Mastercard launch $125 million fund to finance COVID-19 treatments The updated lineup on Microsoft's board is as follows: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc -LRB-GSK-RRB-; and Padmasree Warrior, founder, CEO and president, Fable Group Inc..
+		Confidence: 1.000000; Subject: Satya Nadella; Object: Marriott International Inc.;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates, Wellcome and Mastercard launch $125 million fund to finance COVID-19 treatments The updated lineup on Microsoft's board is as follows: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc -LRB-GSK-RRB-; and Padmasree Warrior, founder, CEO and president, Fable Group Inc..
+		Confidence: 1.000000; Subject: Reid Hoffman; Object: Greylock Partners;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates, Wellcome and Mastercard launch $125 million fund to finance COVID-19 treatments The updated lineup on Microsoft's board is as follows: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc -LRB-GSK-RRB-; and Padmasree Warrior, founder, CEO and president, Fable Group Inc..
+		Confidence: 1.000000; Subject: Teri L. List-Stoll; Object: Marriott International Inc.;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates, Wellcome and Mastercard launch $125 million fund to finance COVID-19 treatments The updated lineup on Microsoft's board is as follows: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc -LRB-GSK-RRB-; and Padmasree Warrior, founder, CEO and president, Fable Group Inc..
+		Confidence: 1.000000; Subject: Hugh Johnston; Object: Marriott International Inc.;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates, Wellcome and Mastercard launch $125 million fund to finance COVID-19 treatments The updated lineup on Microsoft's board is as follows: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc -LRB-GSK-RRB-; and Padmasree Warrior, founder, CEO and president, Fable Group Inc..
+		Confidence: 1.000000; Subject: Charles W. Scharf; Object: Wells Fargo & Co.;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates, Wellcome and Mastercard launch $125 million fund to finance COVID-19 treatments The updated lineup on Microsoft's board is as follows: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc -LRB-GSK-RRB-; and Padmasree Warrior, founder, CEO and president, Fable Group Inc..
+		Confidence: 1.000000; Subject: Emma Walmsley; Object: GlaxoSmithKline;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Gates, Wellcome and Mastercard launch $125 million fund to finance COVID-19 treatments The updated lineup on Microsoft's board is as follows: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc -LRB-GSK-RRB-; and Padmasree Warrior, founder, CEO and president, Fable Group Inc..
+		Confidence: 1.000000; Subject: John W. Stanton; Object: Marriott International Inc.;
+		Adding to set of extracted relations.
+	processing 11th sentence.
+Extracted kbp annotations for 5 out of total 12 sentences
+Relations extracted from this website: 7 (Overall: 23)
+URL (5 / 10): https://news.microsoft.com/2020/03/13/microsoft-announces-change-to-its-board-of-directors/
+	Fetching text from url ...
+	Webpage length (num characters): 28
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-4ab31cee806a4ed2.props -preload tokenize,ssplit,pos,lemma,ner
+	Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+	Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-bc390d0ec2554857.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+Extracted kbp annotations for 0 out of total 1 sentences
+Relations extracted from this website: 0 (Overall: 23)
+URL (6 / 10): https://en.wikipedia.org/wiki/Bill_Gates
+	Fetching text from url ...
+	Webpage length (num characters): 97501
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-108a97eea48a44d3.props -preload tokenize,ssplit,pos,lemma,ner
+	Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+	Extracted 135 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-3c2cfbdfa4c84d96.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+	processing 0th sentence.
+		=== Extracted Relation ===
+		Sentence: Bill Gates - Wikipedia Bill Gates From Wikipedia, the free encyclopedia Jump to navigation Jump to search This article is about the co-founder of Microsoft.
+		Confidence: 1.000000; Subject: Bill Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 2th sentence.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.940688; Subject: William Henry Gates III; Object: Cascade Investment Technology;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.948486; Subject: Mary Maxwell Gates; Object: Cascade Investment Technology;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.888281; Subject: Melinda French; Object: Bill & Melinda Gates Foundation;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.910426; Subject: William Henry Gates III; Object: Branded Entertainment Network;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.953513; Subject: Mary Maxwell Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.960536; Subject: William Henry Gates III; Object: Microsoft;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.730759; Subject: Bill Gates Gates; Object: Cascade Investment Technology;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.820599; Subject: Melinda French; Object: Branded Entertainment Network;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.852837; Subject: Bill Gates Gates; Object: Branded Entertainment Network;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.964342; Subject: William Henry Gates III; Object: Bill & Melinda Gates Foundation;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.959630; Subject: Mary Maxwell Gates; Object: Bill & Melinda Gates Foundation;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.933134; Subject: Melinda French; Object: Cascade Investment Technology;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.978995; Subject: Bill Gates Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.959287; Subject: Bill Gates Gates; Object: Bill & Melinda Gates Foundation;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.956135; Subject: Melinda French; Object: Microsoft;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: American business magnate and philanthropist Bill Gates Gates in 2018 Born William Henry Gates III -LRB-1955-10-28-RRB- October 28, 1955 -LRB-age 64-RRB- Seattle, Washington, U.S. Occupation Software developer investor entrepreneur philanthropist Years active 1975--present Known for Co-founder of Microsoft Net worth US$97.8 billion -LRB-March 2020-RRB--LSB-1-RSB- Title Co-chairman and co-founder of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and co-founder of TerraPower Chairman and founder of Cascade Investment Technology advisor at Microsoft Spouse-LRB-s-RRB- Melinda French -LRB-m. 1994-RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate, software developer, investor, and philanthropist.
+		Confidence: 0.895852; Subject: Mary Maxwell Gates; Object: Branded Entertainment Network;
+		Adding to set of extracted relations.
+	processing 4th sentence.
+	processing 6th sentence.
+		=== Extracted Relation ===
+		Sentence: Born and raised in Seattle, Washington, Gates co-founded Microsoft with childhood friend Paul Allen in 1975 in Albuquerque, New Mexico; it went on to become the world's largest personal computer software company.
+		Confidence: 0.712358; Subject: Paul Allen; Object: Microsoft;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Born and raised in Seattle, Washington, Gates co-founded Microsoft with childhood friend Paul Allen in 1975 in Albuquerque, New Mexico; it went on to become the world's largest personal computer software company.
+		Confidence: 0.834668; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 10th sentence.
+		=== Extracted Relation ===
+		Sentence: -LSB-8-RSB- In June 2006, Gates announced that he would be transitioning to a part-time role at Microsoft and full-time work at the Bill & Melinda Gates Foundation, the private charitable foundation that he and his wife, Melinda Gates, established in 2000.
+		Confidence: 0.430928; Subject: Melinda Gates; Object: Bill & Melinda Gates Foundation;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 12th sentence.
+		=== Extracted Relation ===
+		Sentence: -LSB-10-RSB- He stepped down as chairman of Microsoft in February 2014 and assumed a new post as technology adviser to support the newly appointed CEO Satya Nadella.
+		Confidence: 0.567068; Subject: Satya Nadella; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: -LSB-10-RSB- He stepped down as chairman of Microsoft in February 2014 and assumed a new post as technology adviser to support the newly appointed CEO Satya Nadella.
+		Confidence: 1.000000; Subject: He; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 15th sentence.
+	processing 17th sentence.
+		=== Extracted Relation ===
+		Sentence: Later in his career and since leaving day-to-day operations at Microsoft in 2008, Gates pursued a number of philanthropic endeavors.
+		Confidence: 0.503282; Subject: Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 21th sentence.
+	processing 36th sentence.
+	processing 40th sentence.
+		=== Extracted Relation ===
+		Sentence: One of these systems was a PDP-10 belonging to Computer Center Corporation -LRB-CCC-RRB- which banned for the summer Gates, Paul Allen, Ric Weiland, and Gates' best friend and first business collaborator Kent Evans after it caught them exploiting bugs in the operating system to obtain free computer time.
+		Confidence: 0.561766; Subject: Paul Allen; Object: Computer Center Corporation;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: One of these systems was a PDP-10 belonging to Computer Center Corporation -LRB-CCC-RRB- which banned for the summer Gates, Paul Allen, Ric Weiland, and Gates' best friend and first business collaborator Kent Evans after it caught them exploiting bugs in the operating system to obtain free computer time.
+		Confidence: 0.594851; Subject: Ric Weiland; Object: Computer Center Corporation;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 43th sentence.
+	processing 50th sentence.
+	processing 55th sentence.
+	processing 56th sentence.
+		=== Extracted Relation ===
+		Sentence: Gates left Harvard after two years while Ballmer stayed and graduated magna cum laude.
+		Confidence: 1.000000; Subject: Gates; Object: Harvard;
+		Adding to set of extracted relations.
+	processing 57th sentence.
+		=== Extracted Relation ===
+		Sentence: Ballmer succeeded Gates as Microsoft's CEO years later and maintained that position from 2000 until his resignation in 2014.
+		Confidence: 0.691153; Subject: Ballmer; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: Ballmer succeeded Gates as Microsoft's CEO years later and maintained that position from 2000 until his resignation in 2014.
+		Confidence: 0.629726; Subject: Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 60th sentence.
+		=== Extracted Relation ===
+		Sentence: -LSB-43-RSB- His solution was formalized in a published paper in collaboration with Harvard computer scientist Christos Papadimitriou.
+		Confidence: 1.000000; Subject: Christos Papadimitriou; Object: Harvard;
+		Adding to set of extracted relations.
+	processing 61th sentence.
+	processing 62th sentence.
+	processing 63th sentence.
+		=== Extracted Relation ===
+		Sentence: -LSB-47-RSB- The MITS Altair 8800 was released the following year based on the Intel 8080 CPU, and Gates and Allen saw this as the opportunity to start their own computer software company.
+		Confidence: 0.640000; Subject: Allen; Object: Intel;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: -LSB-47-RSB- The MITS Altair 8800 was released the following year based on the Intel 8080 CPU, and Gates and Allen saw this as the opportunity to start their own computer software company.
+		Confidence: 0.763963; Subject: Gates; Object: Intel;
+		Adding to set of extracted relations.
+	processing 64th sentence.
+	processing 69th sentence.
+	processing 72th sentence.
+	processing 76th sentence.
+	processing 77th sentence.
+	processing 86th sentence.
+	processing 88th sentence.
+		=== Extracted Relation ===
+		Sentence: IBM representative Jack Sams mentioned the licensing difficulties during a subsequent meeting with Gates and asked if Microsoft could provide an operating system.
+		Confidence: 1.000000; Subject: Jack Sams; Object: IBM;
+		Adding to set of extracted relations.
+	processing 89th sentence.
+		=== Extracted Relation ===
+		Sentence: A few weeks later, Gates and Allen proposed using 86-DOS, an operating system similar to CP/M, that Tim Paterson of Seattle Computer Products -LRB-SCP-RRB- had made for hardware similar to the PC.
+		Confidence: 1.000000; Subject: Tim Paterson; Object: Seattle Computer Products;
+		Adding to set of extracted relations.
+	processing 91th sentence.
+		=== Extracted Relation ===
+		Sentence: Microsoft employed Paterson to adapt the operating system for the PC-LSB-57-RSB- and delivered it to IBM as PC DOS for a one-time fee of $50,000.
+		Confidence: 0.540065; Subject: Paterson; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 93th sentence.
+	processing 99th sentence.
+		=== Extracted Relation ===
+		Sentence: -LSB-54-RSB- Gates oversaw Microsoft's company restructuring on June 25, 1981, which re-incorporated the company in Washington state and made Gates the president and chairman of the board, with Paul Allen as vice president and vice chairman.
+		Confidence: 0.593296; Subject: Paul Allen; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: -LSB-54-RSB- Gates oversaw Microsoft's company restructuring on June 25, 1981, which re-incorporated the company in Washington state and made Gates the president and chairman of the board, with Paul Allen as vice president and vice chairman.
+		Confidence: 0.819972; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 100th sentence.
+	processing 106th sentence.
+	processing 108th sentence.
+	processing 112th sentence.
+	processing 117th sentence.
+		=== Extracted Relation ===
+		Sentence: -LSB-69-RSB--LSB-70-RSB--LSB-71-RSB- During Microsoft's early years, Gates was an active software developer, particularly in the company's programming language products, but his primary role in most of the company's history was as a manager and executive.
+		Confidence: 0.701127; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 119th sentence.
+		=== Extracted Relation ===
+		Sentence: -LSB-70-RSB- Jerry Pournelle wrote in 1985 when Gates announced Microsoft Excel: ``Bill Gates likes the program, not because it's going to make him a lot of money -LRB-although I'm sure it will do that-RRB-, but because it's a neat hack.''
+		Confidence: 0.615283; Subject: Bill Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 120th sentence.
+	processing 123th sentence.
+	processing 131th sentence.
+	processing 132th sentence.
+		=== Extracted Relation ===
+		Sentence: -LSB-77-RSB- Post-Microsoft Gates meets with U.S. Secretary of Defense James Mattis, February 2017 Since leaving day-to-day operations at Microsoft, Gates has continued his philanthropy and works on other projects.
+		Confidence: 0.535704; Subject: James Mattis; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: -LSB-77-RSB- Post-Microsoft Gates meets with U.S. Secretary of Defense James Mattis, February 2017 Since leaving day-to-day operations at Microsoft, Gates has continued his philanthropy and works on other projects.
+		Confidence: 0.717571; Subject: Post-Microsoft Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 133th sentence.
+	processing 134th sentence.
+		=== Extracted Relation ===
+		Sentence: As of January 2014-LSB-update-RSB-, most of Gates' assets are held in Cascade Investment LLC, an entity through which he owns stakes in numerous businesses, including Four Seasons Hotels and Resorts, and Corbis Corp.-LSB-78-RSB- On February 4, 2014, Gates stepped down as chairman of Microsoft to become ``technology advisor'' alongside CEO Satya Nad
+		Confidence: 0.525726; Subject: Satya Nad; Object: Cascade Investment LLC;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: As of January 2014-LSB-update-RSB-, most of Gates' assets are held in Cascade Investment LLC, an entity through which he owns stakes in numerous businesses, including Four Seasons Hotels and Resorts, and Corbis Corp.-LSB-78-RSB- On February 4, 2014, Gates stepped down as chairman of Microsoft to become ``technology advisor'' alongside CEO Satya Nad
+		Confidence: 0.619695; Subject: he; Object: Cascade Investment LLC;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: As of January 2014-LSB-update-RSB-, most of Gates' assets are held in Cascade Investment LLC, an entity through which he owns stakes in numerous businesses, including Four Seasons Hotels and Resorts, and Corbis Corp.-LSB-78-RSB- On February 4, 2014, Gates stepped down as chairman of Microsoft to become ``technology advisor'' alongside CEO Satya Nad
+		Confidence: 0.672862; Subject: Satya Nad; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: As of January 2014-LSB-update-RSB-, most of Gates' assets are held in Cascade Investment LLC, an entity through which he owns stakes in numerous businesses, including Four Seasons Hotels and Resorts, and Corbis Corp.-LSB-78-RSB- On February 4, 2014, Gates stepped down as chairman of Microsoft to become ``technology advisor'' alongside CEO Satya Nad
+		Confidence: 0.458470; Subject: Satya Nad; Object: Corbis;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: As of January 2014-LSB-update-RSB-, most of Gates' assets are held in Cascade Investment LLC, an entity through which he owns stakes in numerous businesses, including Four Seasons Hotels and Resorts, and Corbis Corp.-LSB-78-RSB- On February 4, 2014, Gates stepped down as chairman of Microsoft to become ``technology advisor'' alongside CEO Satya Nad
+		Confidence: 0.602793; Subject: Gates; Object: Corbis;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: As of January 2014-LSB-update-RSB-, most of Gates' assets are held in Cascade Investment LLC, an entity through which he owns stakes in numerous businesses, including Four Seasons Hotels and Resorts, and Corbis Corp.-LSB-78-RSB- On February 4, 2014, Gates stepped down as chairman of Microsoft to become ``technology advisor'' alongside CEO Satya Nad
+		Confidence: 0.495389; Subject: Gates; Object: Cascade Investment LLC;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: As of January 2014-LSB-update-RSB-, most of Gates' assets are held in Cascade Investment LLC, an entity through which he owns stakes in numerous businesses, including Four Seasons Hotels and Resorts, and Corbis Corp.-LSB-78-RSB- On February 4, 2014, Gates stepped down as chairman of Microsoft to become ``technology advisor'' alongside CEO Satya Nad
+		Confidence: 1.000000; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+Extracted kbp annotations for 43 out of total 135 sentences
+Relations extracted from this website: 24 (Overall: 47)
+URL (7 / 10): https://www.bbc.com/news/business-51883377
+	Fetching text from url ...
+	Webpage length (num characters): 5642
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-8c90c67d9ba54b0f.props -preload tokenize,ssplit,pos,lemma,ner
+	Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+	Extracted 20 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-9b31a574aaa44bd5.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+	processing 0th sentence.
+		=== Extracted Relation ===
+		Sentence: Bill Gates steps down from Microsoft board to focus on philanthropy - BBC News Homepage Accessibility links Skip to content Accessibility Help BBC Account Notifications Home News Sport Weather iPlayer Sounds CBBC CBeebies Food Bitesize Arts Taster Local Three Menu SearchSearch the BBCSearch the BBC News BBC News Navigation Sections Home Video World US & Canada UK Business selected Tech Science Stories Entertainment & Arts Health In Pictures Reality Check World News TV Newsbeat Special Reports Explainers The Reporters Have Your Say Business selected Market Data Global Trade Companies Entrepreneurship Technology of Business Connected World Global Education Economy Business Business Bill Gates steps down from Microsoft board to focus on philanthropy 13 March 2020 Share this with Facebook Share this with Messenger Share this with Twitter Share this with Email Share this with Facebook Share this with WhatsApp Share this with Messenger Share this with Twitter Share Share this with These are external links and will open in a new window Email Share this with Email Facebook Share this with Facebook Messenger Share this with Messenger Messenger Share this with Messenger Twitter Share this with Twitter Pinterest Share this with Pinterest WhatsApp Share this with WhatsApp LinkedIn Share this with LinkedIn Copy this link https://www.bbc.com/news/business-51883377 Read more about sharing.
+		Confidence: 0.586486; Subject: Bill Gates; Object: CBBC CBeebies Food Bitesize Arts Taster Local Three Menu;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: Bill Gates steps down from Microsoft board to focus on philanthropy - BBC News Homepage Accessibility links Skip to content Accessibility Help BBC Account Notifications Home News Sport Weather iPlayer Sounds CBBC CBeebies Food Bitesize Arts Taster Local Three Menu SearchSearch the BBCSearch the BBC News BBC News Navigation Sections Home Video World US & Canada UK Business selected Tech Science Stories Entertainment & Arts Health In Pictures Reality Check World News TV Newsbeat Special Reports Explainers The Reporters Have Your Say Business selected Market Data Global Trade Companies Entrepreneurship Technology of Business Connected World Global Education Economy Business Business Bill Gates steps down from Microsoft board to focus on philanthropy 13 March 2020 Share this with Facebook Share this with Messenger Share this with Twitter Share this with Email Share this with Facebook Share this with WhatsApp Share this with Messenger Share this with Twitter Share Share this with These are external links and will open in a new window Email Share this with Email Facebook Share this with Facebook Messenger Share this with Messenger Messenger Share this with Messenger Twitter Share this with Twitter Pinterest Share this with Pinterest WhatsApp Share this with WhatsApp LinkedIn Share this with LinkedIn Copy this link https://www.bbc.com/news/business-51883377 Read more about sharing.
+		Confidence: 0.635371; Subject: Bill Gates; Object: Bill Gates;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 1th sentence.
+		=== Extracted Relation ===
+		Sentence: These are external links and will open in a new window Close share panel Image copyright Reuters Microsoft co-founder Bill Gates is stepping down from the company's board to spend more time on philanthropic activities.
+		Confidence: 1.000000; Subject: Bill Gates; Object: Reuters Microsoft;
+		Adding to set of extracted relations.
+	processing 3th sentence.
+		=== Extracted Relation ===
+		Sentence: One of the world's richest men, Mr Gates, 64, has also left the board of Warren Buffett's massive holding company, Berkshire Hathaway.
+		Confidence: 1.000000; Subject: Warren Buffett; Object: Berkshire Hathaway;
+		Adding to set of extracted relations.
+	processing 4th sentence.
+		=== Extracted Relation ===
+		Sentence: Mr Gates stepped down from his day-to-day role running Microsoft in 2008.
+		Confidence: 0.615947; Subject: Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 7th sentence.
+		=== Extracted Relation ===
+		Sentence: Mr Gates is listed by Forbes as the world's second richest man after Amazon founder Jeff Bezos, and is worth $103.6bn -LRB-£84.4bn-RRB-.
+		Confidence: 1.000000; Subject: Jeff Bezos; Object: Amazon;
+		Adding to set of extracted relations.
+	processing 9th sentence.
+	processing 11th sentence.
+	processing 12th sentence.
+		=== Extracted Relation ===
+		Sentence: Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+		Confidence: 0.619064; Subject: his; Object: Berkshire;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+		Confidence: 0.697710; Subject: his; Object: Bill & Melinda Gates Foundation;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+		Confidence: 0.570512; Subject: Gates; Object: Bill & Melinda Gates Foundation;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+		Confidence: 0.830585; Subject: Gates; Object: Berkshire;
+		Adding to set of extracted relations.
+Extracted kbp annotations for 8 out of total 20 sentences
+Relations extracted from this website: 4 (Overall: 51)
+URL (8 / 10): https://www.computerworld.com/article/3532478/bill-gates-always-seems-to-know-when-it-s-time-to-go.html
+	Fetching text from url ...
+	Webpage length (num characters): 8646
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-dbf5c1b211394933.props -preload tokenize,ssplit,pos,lemma,ner
+	Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+	Extracted 65 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-42e261a45d2a4186.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+	processing 9th sentence.
+	processing 11th sentence.
+	processing 13th sentence.
+	processing 15th sentence.
+		=== Extracted Relation ===
+		Sentence: Bill Gates resigned from Microsoft's board of directors last week, pretty much ending his official ties to the company he co-founded.
+		Confidence: 0.655929; Subject: Bill Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 16th sentence.
+	processing 18th sentence.
+	processing 26th sentence.
+	processing 28th sentence.
+	processing 30th sentence.
+	processing 41th sentence.
+	processing 45th sentence.
+		=== Extracted Relation ===
+		Sentence: As long as Gates remained part of Microsoft, Nadella was to some extent fettered.
+		Confidence: 0.531849; Subject: Nadella; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 47th sentence.
+		=== Extracted Relation ===
+		Sentence: Now Nadella is more free to mold Microsoft into his vision of the future without the shadow of Bill Gates hampering execution.
+		Confidence: 0.515213; Subject: Nadella; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 53th sentence.
+		=== Extracted Relation ===
+		Sentence: By the time Gates left Microsoft, the company was under an antitrust cloud, IBM was recovering, Google was just about to become a thing, and Apple, with the return of Steve Jobs, had begun a substantial move from being on life support to being the most valuable company in the world.
+		Confidence: 1.000000; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 55th sentence.
+	processing 60th sentence.
+		=== Extracted Relation ===
+		Sentence: Related: Microsoft Windows Rob Enderle is president and principal analyst of the Enderle Group, a forward looking emerging technology advisory firm.
+		Confidence: 1.000000; Subject: Rob Enderle; Object: Enderle Group;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Related: Microsoft Windows Rob Enderle is president and principal analyst of the Enderle Group, a forward looking emerging technology advisory firm.
+		Confidence: 0.704002; Subject: Rob Enderle; Object: Microsoft;
+		Adding to set of extracted relations.
+Extracted kbp annotations for 15 out of total 65 sentences
+Relations extracted from this website: 2 (Overall: 53)
+URL (9 / 10): https://www.wired.com/story/bill-gates-steps-down-microsoft-board/
+	Fetching text from url ...
+	Webpage length (num characters): 7454
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-d9d3a27d6cda468a.props -preload tokenize,ssplit,pos,lemma,ner
+	Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+	Extracted 56 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-08a04d06de6e429d.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+	processing 0th sentence.
+	processing 1th sentence.
+	processing 6th sentence.
+	processing 9th sentence.
+	processing 17th sentence.
+	processing 19th sentence.
+		=== Extracted Relation ===
+		Sentence: Eight years later, Gates left his full-time post at Microsoft to spend most of his time with the foundation.
+		Confidence: 0.656185; Subject: Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 26th sentence.
+		=== Extracted Relation ===
+		Sentence: Though taking on polio, poverty, and the rising of the seas might seem more stressful than fighting Steve Jobs, Sony, or the Justice Department's hired legal gunslinger, David Boies, Gates has approached the challenges with a humor and humility you seldom saw when he was speaking for Microsoft.
+		Confidence: 0.730615; Subject: Steve Jobs; Object: Justice Department;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Though taking on polio, poverty, and the rising of the seas might seem more stressful than fighting Steve Jobs, Sony, or the Justice Department's hired legal gunslinger, David Boies, Gates has approached the challenges with a humor and humility you seldom saw when he was speaking for Microsoft.
+		Confidence: 0.891271; Subject: David Boies; Object: Justice Department;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Though taking on polio, poverty, and the rising of the seas might seem more stressful than fighting Steve Jobs, Sony, or the Justice Department's hired legal gunslinger, David Boies, Gates has approached the challenges with a humor and humility you seldom saw when he was speaking for Microsoft.
+		Confidence: 0.587974; Subject: Steve Jobs; Object: Sony;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 31th sentence.
+		=== Extracted Relation ===
+		Sentence: When Gates left his software architect job at Microsoft in 2008, he told me that the subjects he tackled at the foundation were more vital than the ones he made about software.
+		Confidence: 0.696647; Subject: Gates; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 43th sentence.
+		=== Extracted Relation ===
+		Sentence: He has been writing about technology for more than 30 years, writing... Read more Editor at Large Featured Video Bill Gates Talks About 6 Moments in His Life Bill Gates, one of WIRED's 25 icons from its WIRED25 anniversary celebration, reflects on six important moments from his life and career, from teaching students to program in high school, to his relationships with Melinda Gates, Warren Buffett, and Paul Allen, the co-founder of Microsoft, who passed away on October 15.
+		Confidence: 0.483423; Subject: His; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: He has been writing about technology for more than 30 years, writing... Read more Editor at Large Featured Video Bill Gates Talks About 6 Moments in His Life Bill Gates, one of WIRED's 25 icons from its WIRED25 anniversary celebration, reflects on six important moments from his life and career, from teaching students to program in high school, to his relationships with Melinda Gates, Warren Buffett, and Paul Allen, the co-founder of Microsoft, who passed away on October 15.
+		Confidence: 1.000000; Subject: Paul Allen; Object: Microsoft;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: He has been writing about technology for more than 30 years, writing... Read more Editor at Large Featured Video Bill Gates Talks About 6 Moments in His Life Bill Gates, one of WIRED's 25 icons from its WIRED25 anniversary celebration, reflects on six important moments from his life and career, from teaching students to program in high school, to his relationships with Melinda Gates, Warren Buffett, and Paul Allen, the co-founder of Microsoft, who passed away on October 15.
+		Confidence: 0.430340; Subject: Warren Buffett; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+Extracted kbp annotations for 9 out of total 56 sentences
+Relations extracted from this website: 2 (Overall: 55)
+URL (10 / 10): https://www.cnn.com/2020/03/13/business/bill-gates-microsoft-berkshire-boards/index.html
+	Fetching text from url ...
+	Webpage length (num characters): 6782
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-4a8b483fccce493c.props -preload tokenize,ssplit,pos,lemma,ner
+	Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+	Extracted 37 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Starting server with command: java -Xmx4G -cp /home/gr2625/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 300000 -threads 7 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-a91d2bc4d61943c6.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+	processing 0th sentence.
+		=== Extracted Relation ===
+		Sentence: Bill Gates is leaving Microsoft and Berkshire Hathaway's boards - CNN Markets Tech Media Success Perspectives Videos Edition U.S. International Arabic Español Markets Tech Media Success Perspectives Videos Search Edition U.S. International Arabic Español Markets Premarkets Dow 30 After-Hours Market Movers Fear & Greed World Markets Sector Performance Investing Markets Now Before the Bell Leading Indicator Global Energy Challenge Economy Energy Tech Innovate Gadget Foreseeable Future Mission: Ahead Upstarts Business Evolved Work Transformed Innovative Cities Unhackable Media Reliable Sources Success Boss Files Risk Takers Fresh Money Invest Ahead Cars Homes Wealth Coach Center Piece Perspectives Videos International Switzerland India Davos Reliable Sources Passion to Portfolio On: Germany More Accessibility & CC About Us Newsletters US World Politics Business Opinion Health Entertainment Tech Style Travel Sports Videos Coupons More Follow CNN Business Bill Gates is leaving Microsoft and Berkshire Hathaway's boards By Chauncey Alcorn, CNN Business Updated 8:45 PM ET, Fri March 13, 2020 Chat with us in Facebook Messenger.
+		Confidence: 0.835424; Subject: Fri March 13 , 2020; Object: Newsletters US World Politics Business Opinion Health Entertainment;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Bill Gates is leaving Microsoft and Berkshire Hathaway's boards - CNN Markets Tech Media Success Perspectives Videos Edition U.S. International Arabic Español Markets Tech Media Success Perspectives Videos Search Edition U.S. International Arabic Español Markets Premarkets Dow 30 After-Hours Market Movers Fear & Greed World Markets Sector Performance Investing Markets Now Before the Bell Leading Indicator Global Energy Challenge Economy Energy Tech Innovate Gadget Foreseeable Future Mission: Ahead Upstarts Business Evolved Work Transformed Innovative Cities Unhackable Media Reliable Sources Success Boss Files Risk Takers Fresh Money Invest Ahead Cars Homes Wealth Coach Center Piece Perspectives Videos International Switzerland India Davos Reliable Sources Passion to Portfolio On: Germany More Accessibility & CC About Us Newsletters US World Politics Business Opinion Health Entertainment Tech Style Travel Sports Videos Coupons More Follow CNN Business Bill Gates is leaving Microsoft and Berkshire Hathaway's boards By Chauncey Alcorn, CNN Business Updated 8:45 PM ET, Fri March 13, 2020 Chat with us in Facebook Messenger.
+		Confidence: 0.572221; Subject: Bill Gates; Object: After-Hours Market Movers Fear & Greed World Markets Sector Performance Investing Markets Now Before the Bell Leading Indicator Global Energy Challenge Economy Energy Tech;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: Bill Gates is leaving Microsoft and Berkshire Hathaway's boards - CNN Markets Tech Media Success Perspectives Videos Edition U.S. International Arabic Español Markets Tech Media Success Perspectives Videos Search Edition U.S. International Arabic Español Markets Premarkets Dow 30 After-Hours Market Movers Fear & Greed World Markets Sector Performance Investing Markets Now Before the Bell Leading Indicator Global Energy Challenge Economy Energy Tech Innovate Gadget Foreseeable Future Mission: Ahead Upstarts Business Evolved Work Transformed Innovative Cities Unhackable Media Reliable Sources Success Boss Files Risk Takers Fresh Money Invest Ahead Cars Homes Wealth Coach Center Piece Perspectives Videos International Switzerland India Davos Reliable Sources Passion to Portfolio On: Germany More Accessibility & CC About Us Newsletters US World Politics Business Opinion Health Entertainment Tech Style Travel Sports Videos Coupons More Follow CNN Business Bill Gates is leaving Microsoft and Berkshire Hathaway's boards By Chauncey Alcorn, CNN Business Updated 8:45 PM ET, Fri March 13, 2020 Chat with us in Facebook Messenger.
+		Confidence: 1.000000; Subject: Bill Gates; Object: Fri March 13 , 2020;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Bill Gates is leaving Microsoft and Berkshire Hathaway's boards - CNN Markets Tech Media Success Perspectives Videos Edition U.S. International Arabic Español Markets Tech Media Success Perspectives Videos Search Edition U.S. International Arabic Español Markets Premarkets Dow 30 After-Hours Market Movers Fear & Greed World Markets Sector Performance Investing Markets Now Before the Bell Leading Indicator Global Energy Challenge Economy Energy Tech Innovate Gadget Foreseeable Future Mission: Ahead Upstarts Business Evolved Work Transformed Innovative Cities Unhackable Media Reliable Sources Success Boss Files Risk Takers Fresh Money Invest Ahead Cars Homes Wealth Coach Center Piece Perspectives Videos International Switzerland India Davos Reliable Sources Passion to Portfolio On: Germany More Accessibility & CC About Us Newsletters US World Politics Business Opinion Health Entertainment Tech Style Travel Sports Videos Coupons More Follow CNN Business Bill Gates is leaving Microsoft and Berkshire Hathaway's boards By Chauncey Alcorn, CNN Business Updated 8:45 PM ET, Fri March 13, 2020 Chat with us in Facebook Messenger.
+		Confidence: 0.749746; Subject: Bill Gates; Object: Berkshire Hathaway;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Bill Gates is leaving Microsoft and Berkshire Hathaway's boards - CNN Markets Tech Media Success Perspectives Videos Edition U.S. International Arabic Español Markets Tech Media Success Perspectives Videos Search Edition U.S. International Arabic Español Markets Premarkets Dow 30 After-Hours Market Movers Fear & Greed World Markets Sector Performance Investing Markets Now Before the Bell Leading Indicator Global Energy Challenge Economy Energy Tech Innovate Gadget Foreseeable Future Mission: Ahead Upstarts Business Evolved Work Transformed Innovative Cities Unhackable Media Reliable Sources Success Boss Files Risk Takers Fresh Money Invest Ahead Cars Homes Wealth Coach Center Piece Perspectives Videos International Switzerland India Davos Reliable Sources Passion to Portfolio On: Germany More Accessibility & CC About Us Newsletters US World Politics Business Opinion Health Entertainment Tech Style Travel Sports Videos Coupons More Follow CNN Business Bill Gates is leaving Microsoft and Berkshire Hathaway's boards By Chauncey Alcorn, CNN Business Updated 8:45 PM ET, Fri March 13, 2020 Chat with us in Facebook Messenger.
+		Confidence: 0.541202; Subject: Bill Gates; Object: CNN Markets Tech Media Success Perspectives Videos Edition U.S. International Arabic Español Markets Tech Media Success Perspectives Videos Search Edition U.S. International Arabic Español Markets Premarkets Dow;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: Bill Gates is leaving Microsoft and Berkshire Hathaway's boards - CNN Markets Tech Media Success Perspectives Videos Edition U.S. International Arabic Español Markets Tech Media Success Perspectives Videos Search Edition U.S. International Arabic Español Markets Premarkets Dow 30 After-Hours Market Movers Fear & Greed World Markets Sector Performance Investing Markets Now Before the Bell Leading Indicator Global Energy Challenge Economy Energy Tech Innovate Gadget Foreseeable Future Mission: Ahead Upstarts Business Evolved Work Transformed Innovative Cities Unhackable Media Reliable Sources Success Boss Files Risk Takers Fresh Money Invest Ahead Cars Homes Wealth Coach Center Piece Perspectives Videos International Switzerland India Davos Reliable Sources Passion to Portfolio On: Germany More Accessibility & CC About Us Newsletters US World Politics Business Opinion Health Entertainment Tech Style Travel Sports Videos Coupons More Follow CNN Business Bill Gates is leaving Microsoft and Berkshire Hathaway's boards By Chauncey Alcorn, CNN Business Updated 8:45 PM ET, Fri March 13, 2020 Chat with us in Facebook Messenger.
+		Confidence: 1.000000; Subject: Fri March 13 , 2020; Object: Fri March 13 , 2020;
+		Adding to set of extracted relations.
+	processing 6th sentence.
+	processing 8th sentence.
+		=== Extracted Relation ===
+		Sentence: ``It's been a tremendous honor and privilege to have worked with and learned from Bill over the years,'' Mirosoft CEO Satya Nadella said in a written statement.
+		Confidence: 1.000000; Subject: Satya Nadella; Object: Mirosoft;
+		Adding to set of extracted relations.
+	processing 9th sentence.
+	processing 11th sentence.
+		=== Extracted Relation ===
+		Sentence: Gates will continue serving as technology adviser to Nadella and other Microsoft leaders, the company said.
+		Confidence: 0.674188; Subject: Nadella; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: Gates will continue serving as technology adviser to Nadella and other Microsoft leaders, the company said.
+		Confidence: 0.813778; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 12th sentence.
+	processing 13th sentence.
+		=== Extracted Relation ===
+		Sentence: Separately in an SEC filing, Berkshire Hathaway said former American Express CEO Kenneth Chenault would replace Gates, who has served on Berkshire's board since 2004.
+		Confidence: 1.000000; Subject: Kenneth Chenault; Object: American Express;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Separately in an SEC filing, Berkshire Hathaway said former American Express CEO Kenneth Chenault would replace Gates, who has served on Berkshire's board since 2004.
+		Confidence: 0.850007; Subject: Gates; Object: Berkshire;
+		Adding to set of extracted relations.
+	processing 14th sentence.
+		=== Extracted Relation ===
+		Sentence: Read More Chenault simultaneously is leaving Facebook's board of directors, the company confirmed Friday.
+		Confidence: 0.550014; Subject: Chenault; Object: Facebook;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 16th sentence.
+		=== Extracted Relation ===
+		Sentence: In a written statement posted on Facebook's website Friday, Chenault said serving on Berkshire Hathaway's board and working closely with his friend, Berkshire CEO Warren Buffett, is ``a once-in-a-lifetime opportunity.''
+		Confidence: 0.545070; Subject: Chenault; Object: Berkshire Hathaway;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: In a written statement posted on Facebook's website Friday, Chenault said serving on Berkshire Hathaway's board and working closely with his friend, Berkshire CEO Warren Buffett, is ``a once-in-a-lifetime opportunity.''
+		Confidence: 1.000000; Subject: Warren Buffett; Object: Berkshire;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: In a written statement posted on Facebook's website Friday, Chenault said serving on Berkshire Hathaway's board and working closely with his friend, Berkshire CEO Warren Buffett, is ``a once-in-a-lifetime opportunity.''
+		Confidence: 0.731047; Subject: Chenault; Object: Facebook;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: In a written statement posted on Facebook's website Friday, Chenault said serving on Berkshire Hathaway's board and working closely with his friend, Berkshire CEO Warren Buffett, is ``a once-in-a-lifetime opportunity.''
+		Confidence: 0.781968; Subject: Warren Buffett; Object: Facebook;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: In a written statement posted on Facebook's website Friday, Chenault said serving on Berkshire Hathaway's board and working closely with his friend, Berkshire CEO Warren Buffett, is ``a once-in-a-lifetime opportunity.''
+		Confidence: 0.741011; Subject: Warren Buffett; Object: Berkshire Hathaway;
+		Adding to set of extracted relations.
+	processing 18th sentence.
+		=== Extracted Relation ===
+		Sentence: With an estimated net worth of over $100 billion, Gates is the second richest person in the world after Amazon's Jeff Bezos, according to the Bloomberg Billionaire Index.
+		Confidence: 0.819680; Subject: Jeff Bezos; Object: Amazon;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: With an estimated net worth of over $100 billion, Gates is the second richest person in the world after Amazon's Jeff Bezos, according to the Bloomberg Billionaire Index.
+		Confidence: 0.534042; Subject: Jeff Bezos; Object: Bloomberg Billionaire Index;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 19th sentence.
+		=== Extracted Relation ===
+		Sentence: He has worked on global health, industrial development and education initiatives through the Bill and Melinda Gates Foundation since transitioning out of day-to-day duties at Microsoft in 2008.
+		Confidence: 0.535510; Subject: Bill; Object: Melinda Gates Foundation;
+		Confidence is lower than threshold confidence. Ignoring this.
+		=== Extracted Relation ===
+		Sentence: He has worked on global health, industrial development and education initiatives through the Bill and Melinda Gates Foundation since transitioning out of day-to-day duties at Microsoft in 2008.
+		Confidence: 0.519941; Subject: Bill; Object: Microsoft;
+		Confidence is lower than threshold confidence. Ignoring this.
+	processing 20th sentence.
+		=== Extracted Relation ===
+		Sentence: Gates's role as chair of Microsoft's board ended in 2014.
+		Confidence: 0.781336; Subject: Gates; Object: Microsoft;
+		Adding to set of extracted relations.
+	processing 34th sentence.
+		=== Extracted Relation ===
+		Sentence: Standard & Poor's and S&P are registered trademarks of Standard & Poor's Financial Services LLC and Dow Jones is a registered trademark of Dow Jones Trademark Holdings LLC.
+		Confidence: 0.793700; Subject: Dow Jones; Object: Dow Jones Trademark Holdings LLC;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Standard & Poor's and S&P are registered trademarks of Standard & Poor's Financial Services LLC and Dow Jones is a registered trademark of Dow Jones Trademark Holdings LLC.
+		Confidence: 0.713185; Subject: Dow Jones; Object: S&P;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Standard & Poor's and S&P are registered trademarks of Standard & Poor's Financial Services LLC and Dow Jones is a registered trademark of Dow Jones Trademark Holdings LLC.
+		Confidence: 0.744248; Subject: Dow Jones; Object: Standard & Poor 's Financial Services LLC;
+		Adding to set of extracted relations.
+		=== Extracted Relation ===
+		Sentence: Standard & Poor's and S&P are registered trademarks of Standard & Poor's Financial Services LLC and Dow Jones is a registered trademark of Dow Jones Trademark Holdings LLC.
+		Confidence: 0.807592; Subject: Dow Jones; Object: Standard & Poor 's;
+		Adding to set of extracted relations.
+Extracted kbp annotations for 13 out of total 37 sentences
+Relations extracted from this website: 12 (Overall: 67)
+================== ALL RELATIONS (67) =================
+Confidence: 1.000000	| Subject: Bill Gates	| Object: Microsoft
+Confidence: 1.000000	| Subject: Satya Nadella	| Object: Microsoft
+Confidence: 1.000000	| Subject: Gates	| Object: Microsoft
+Confidence: 1.000000	| Subject: Bill Gates	| Object: Microsoft Tech
+Confidence: 1.000000	| Subject: Gates	| Object: Berkshire Hathaway
+Confidence: 1.000000	| Subject: Kenneth Chenault	| Object: American Express
+Confidence: 1.000000	| Subject: Daniel Ives	| Object: Wedbush Securities
+Confidence: 1.000000	| Subject: Satya Nadella	| Object: Marriott International Inc.
+Confidence: 1.000000	| Subject: Reid Hoffman	| Object: Greylock Partners
+Confidence: 1.000000	| Subject: Teri L. List-Stoll	| Object: Marriott International Inc.
+Confidence: 1.000000	| Subject: Hugh Johnston	| Object: Marriott International Inc.
+Confidence: 1.000000	| Subject: Charles W. Scharf	| Object: Wells Fargo & Co.
+Confidence: 1.000000	| Subject: Emma Walmsley	| Object: GlaxoSmithKline
+Confidence: 1.000000	| Subject: John W. Stanton	| Object: Marriott International Inc.
+Confidence: 1.000000	| Subject: He	| Object: Microsoft
+Confidence: 1.000000	| Subject: Gates	| Object: Harvard
+Confidence: 1.000000	| Subject: Christos Papadimitriou	| Object: Harvard
+Confidence: 1.000000	| Subject: Jack Sams	| Object: IBM
+Confidence: 1.000000	| Subject: Tim Paterson	| Object: Seattle Computer Products
+Confidence: 1.000000	| Subject: Bill Gates	| Object: Reuters Microsoft
+Confidence: 1.000000	| Subject: Warren Buffett	| Object: Berkshire Hathaway
+Confidence: 1.000000	| Subject: Jeff Bezos	| Object: Amazon
+Confidence: 1.000000	| Subject: Rob Enderle	| Object: Enderle Group
+Confidence: 1.000000	| Subject: Paul Allen	| Object: Microsoft
+Confidence: 1.000000	| Subject: Bill Gates	| Object: Fri March 13 , 2020
+Confidence: 1.000000	| Subject: Fri March 13 , 2020	| Object: Fri March 13 , 2020
+Confidence: 1.000000	| Subject: Satya Nadella	| Object: Mirosoft
+Confidence: 1.000000	| Subject: Warren Buffett	| Object: Berkshire
+Confidence: 0.978995	| Subject: Bill Gates Gates	| Object: Microsoft
+Confidence: 0.964342	| Subject: William Henry Gates III	| Object: Bill & Melinda Gates Foundation
+Confidence: 0.960536	| Subject: William Henry Gates III	| Object: Microsoft
+Confidence: 0.959630	| Subject: Mary Maxwell Gates	| Object: Bill & Melinda Gates Foundation
+Confidence: 0.959287	| Subject: Bill Gates Gates	| Object: Bill & Melinda Gates Foundation
+Confidence: 0.956135	| Subject: Melinda French	| Object: Microsoft
+Confidence: 0.953513	| Subject: Mary Maxwell Gates	| Object: Microsoft
+Confidence: 0.953336	| Subject: Bill Gates	| Object: Netflix
+Confidence: 0.948486	| Subject: Mary Maxwell Gates	| Object: Cascade Investment Technology
+Confidence: 0.947501	| Subject: Nadella	| Object: Microsoft
+Confidence: 0.940688	| Subject: William Henry Gates III	| Object: Cascade Investment Technology
+Confidence: 0.933134	| Subject: Melinda French	| Object: Cascade Investment Technology
+Confidence: 0.919270	| Subject: Gates	| Object: Bill & Melinda Gates Foundation
+Confidence: 0.910426	| Subject: William Henry Gates III	| Object: Branded Entertainment Network
+Confidence: 0.895852	| Subject: Mary Maxwell Gates	| Object: Branded Entertainment Network
+Confidence: 0.891271	| Subject: David Boies	| Object: Justice Department
+Confidence: 0.888281	| Subject: Melinda French	| Object: Bill & Melinda Gates Foundation
+Confidence: 0.863816	| Subject: Bill Gates	| Object: Linkedin Reddit
+Confidence: 0.852837	| Subject: Bill Gates Gates	| Object: Branded Entertainment Network
+Confidence: 0.850007	| Subject: Gates	| Object: Berkshire
+Confidence: 0.835424	| Subject: Fri March 13 , 2020	| Object: Newsletters US World Politics Business Opinion Health Entertainment
+Confidence: 0.820599	| Subject: Melinda French	| Object: Branded Entertainment Network
+Confidence: 0.807592	| Subject: Dow Jones	| Object: Standard & Poor 's
+Confidence: 0.800764	| Subject: Bill Gates	| Object: NASA SpaceX Health Energy Environment All Science Creators YouTube Instagram Adobe Kickstarter Tumblr Art Club Cameras
+Confidence: 0.793700	| Subject: Dow Jones	| Object: Dow Jones Trademark Holdings LLC
+Confidence: 0.781968	| Subject: Warren Buffett	| Object: Facebook
+Confidence: 0.776973	| Subject: Gates	| Object: Melinda Gates Foundation
+Confidence: 0.764727	| Subject: Bill Gates	| Object: Facebook Share
+Confidence: 0.763963	| Subject: Gates	| Object: Intel
+Confidence: 0.749746	| Subject: Bill Gates	| Object: Berkshire Hathaway
+Confidence: 0.744248	| Subject: Dow Jones	| Object: Standard & Poor 's Financial Services LLC
+Confidence: 0.738922	| Subject: Bill	| Object: Microsoft
+Confidence: 0.731047	| Subject: Chenault	| Object: Facebook
+Confidence: 0.730759	| Subject: Bill Gates Gates	| Object: Cascade Investment Technology
+Confidence: 0.730615	| Subject: Steve Jobs	| Object: Justice Department
+Confidence: 0.722168	| Subject: Saeed Adyani	| Object: Microsoft Tech
+Confidence: 0.717571	| Subject: Post-Microsoft Gates	| Object: Microsoft
+Confidence: 0.713185	| Subject: Dow Jones	| Object: S&P
+Confidence: 0.704002	| Subject: Rob Enderle	| Object: Microsoft
